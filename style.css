@@ -6,7 +6,13 @@
 /* sectioning */
 
 body {
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
 
+header {
+  text-align: center;
 }
 
 /* nav */
