@@ -6,13 +6,8 @@
 /* sectioning */
 
 body {
-  margin: 10px;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-}
-
-header {
-  text-align: center;
 }
 
 
@@ -41,17 +36,49 @@ header {
   padding: 20px;
 }
 
+#intro {
+  text-align: center;
+}
+
+
+
+
+
 /* nav */
 
+.nav {
+  overflow: hidden;
+  background-color: #ffbce9;
+}
+
+.nav a {
+  float: left;
+  text-decoration: none;
+  color: #f4f4f4;
+  padding: 26px 16px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.nav a.nav-link:hover {
+  background-color: #cc3e73;
+  padding: 30px 16px;
+  text-align: center;
+}
+
+.nav a#right-nav {
+  float: right;
+  color: #f4f4f4;
+}
+
+.nav a.logo img {
+  width: 26px;
+}
 
 /* text */
 
 
 /* images */
-
-.logo img {
-  width: 5%;
-}
 
 /* buttons */
 
