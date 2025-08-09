@@ -1,6 +1,7 @@
 *{
   margin: 0px;
-  padding: 0px;
+  padding: 0px
+  box-sizing: border-box;
 }
 
 /* sectioning */
@@ -16,6 +17,7 @@ body {
   justify-content: space-around;
   align-items: flex-start;
   gap: 20px;
+  flex-direction: row;
 }
 
 .reviews {
@@ -23,12 +25,22 @@ body {
   padding: 20px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .review {
-  flex: 25%;
-  padding: 10px;
-  margin: 50px;
+  padding: 20px;
+  margin: 40px;
+  background-color: white;
+  /*width: 100%; */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+}
+
+.review:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
 }
 
 .lists {
@@ -42,33 +54,30 @@ body {
 
 
 
-
-
 /* nav */
 
 .nav {
   overflow: hidden;
-  background-color: #ffbce9;
 }
 
 .nav a {
   float: left;
   text-decoration: none;
-  color: #f4f4f4;
+  color: #F16192;
   padding: 26px 16px;
   text-align: center;
   font-size: 25px;
 }
 
 .nav a.nav-link:hover {
-  background-color: #cc3e73;
+  color: #ffbce9;
   padding: 30px 16px;
   text-align: center;
 }
 
 .nav a#right-nav {
   float: right;
-  color: #f4f4f4;
+  color: #F16192;
 }
 
 .nav a.logo img {
@@ -84,3 +93,9 @@ body {
 
 
 /* other */
+
+@media (max-width: 800px) {
+  #home-page {
+    flex-direction: column;
+  }
+}
