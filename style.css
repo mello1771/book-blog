@@ -1,6 +1,6 @@
 *{
   margin: 0px;
-  padding: 0px
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #fff5f9;
 }
 
 
@@ -24,7 +24,7 @@ body {
   flex: 2;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   align-content: flex-start;
 }
@@ -86,8 +86,24 @@ body {
 
 /* text */
 
+.review h2 {
+  max-width: 150px;
+  padding-bottom: 3px;
+}
 
 /* images */
+
+.review img.book-img {
+  width: 130px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  padding-bottom: 10px;
+}
+
+.review img.stars {
+  width: 15%;
+  object-fit: contain;
+}
 
 /* buttons */
 
