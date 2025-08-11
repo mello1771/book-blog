@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "arcade-classic";
+  src: url("assets/arcade-classic.TTF");
+}
+
+@font-face {
+  font-family: "pixel-scapes";
+  src: url("assets/pixel-scapes.ttf");
+}
+
 /* sectioning */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "pixel-scapes";
   background-color: #fff5f9;
 }
 
@@ -133,6 +143,8 @@ body {
   text-align: center;
   border-radius: 5px;
 }
+
+
 
 /* buttons */
 
