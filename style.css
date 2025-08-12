@@ -48,13 +48,13 @@ main {
   margin: 40px;
   background-color: white;
   /*width: 100%; */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(241, 97, 146, 0.23); 
   transition: 0.3s;
   border-radius: 5px;
 }
 
 .review:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+  box-shadow: 0 12px 24px 0 rgba(241, 97, 146, 0.25)
 }
 
 .lists {
@@ -66,7 +66,7 @@ main {
   text-align: center;
 }
 
-.review-heading {
+.book-heading {
   display: flex;
   gap: 20px;
   padding: 5px;
@@ -100,7 +100,7 @@ main {
 
 .lists-page .lists-div {
   flex: 4;
-  padding: 10px;
+  padding: 5px;
 }
 
 .lists-page .other-reviews {
@@ -154,12 +154,22 @@ h3 {
 }
 
 p {
-  color: #e691ae
+  color: #e691ae;
+  text-indent: 2em;
+  line-height: 1.75;
 }
 
 .review h2 {
   max-width: 150px;
   padding-bottom: 3px;
+}
+
+.list-subheader {
+  font-size: 25px;
+}
+
+.review-body, .list-body {
+  padding: 5px;
 }
 
 #intro h1 {
@@ -189,7 +199,7 @@ p {
   object-fit: contain;
 }
 
-.review-heading img {
+.book-heading img {
   width: 15%;
   text-align: center;
   border-radius: 5px;
