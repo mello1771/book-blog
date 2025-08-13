@@ -226,4 +226,13 @@ p {
   #home-page {
     flex-direction: column;
   }
+  .review-page {
+    flex-direction: column;
+  }
+  .lists-page {
+    flex-direction: column;
+  }
+  .nav a#right-nav {
+    float: left;
+  }
 }
