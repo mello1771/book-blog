@@ -19,3 +19,5 @@ is displayed without it deleting after reloading the page. I think I would also 
 or list entry, because as of now, I would just have to keep creating individual HTML pages and that might get inconvienent after a while.
 
 Even though I struggled a few times while making this website, I really enjoyed deciding how to design and making this website.
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
